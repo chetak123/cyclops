@@ -158,6 +158,7 @@ func (r *ModuleReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctr
 
 		r.monitor.OnFailedReconciliation()
 
+		
 		return ctrl.Result{}, err
 	}
 
